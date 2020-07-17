@@ -2,4 +2,4 @@ env: flex
 runtime: nodejs
 
 beta_settings:
-  cloud_sql_instances: dynamic-style-283421:southamerica-east1:dbapp
+  cloud_sql_instances: backend-angularapp:southamerica-east1:dbangularapp
