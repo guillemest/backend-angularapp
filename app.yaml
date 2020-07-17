@@ -2,4 +2,4 @@ env: flex
 runtime: nodejs
 
 beta_settings:
-  cloud_sql_instances: backend-angularapp:southamerica-east1:dbangularapp
+  cloud_sql_instances: backend-angularapp:southamerica-east1:dbapp
