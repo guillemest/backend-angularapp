@@ -2,15 +2,13 @@ const {
   Sequelize
 } = require('sequelize');
 
-const host = '/cloudsql/backend-angularapp:southamerica-east1:dbangularapp';
-
 const sequelize = new Sequelize('db_users', 'appadmin', 'Santiago2015', {
   dialect: 'mysql',
-  host: host,
+  host: '/cloudsql/backend-angularapp:southamerica-east1:dbangularapp',
   timestamps: false,
   logging: false,
   dialectOptions: {
-    socketPath: host
+    socketPath: '/cloudsql/backend-angularapp:southamerica-east1:dbangularapp'
   },
   pool: {
     max: 5,
